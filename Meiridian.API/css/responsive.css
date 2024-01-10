@@ -20,11 +20,11 @@
 
     .bannerAreaInner h1 { font-size: 48px; line-height: 64px; }
     .bannerAreaInner h2 { font-size: 28px; line-height: 37.3px; }
-    .bannerBottomLeft h3 { font-size: 40px; line-height: 53px; }
+    .bannerBottomLeft h2 { font-size: 40px; line-height: 53px; }
     .bannerBottomInner { padding: 40px 0; }
     .bannerBottomRight p { margin: 20px 0 15px; }
 
-    .targetLeft h3 { font-size: 36px; line-height: 48px; }
+    .targetLeft h2 { font-size: 36px; line-height: 48px; }
     .targetLeftImageData, .targetRightImageData { padding: 20px 25px; }
     .targetLeftImageData h4, .targetRightImageData h4 { font-size: 20px; line-height: 26.6px; }
     .platformMain { padding: 0 0 50px; }
@@ -89,9 +89,9 @@
     .bannerAreaInner h1 { font-size: 48px; line-height: 64px; margin: 0 0 20px; }
     .bannerAreaInner > p { font-size: 22px; line-height: 30px; margin: 0; }
 
-    .bannerBottomInner { padding: 40px 20px; justify-content: space-between; }
+    .bannerBottomInner { padding: 40px 20px; }
     .bannerBottomRight p { padding-left: 20px; }
-    .bannerBottomRight ul li { font-size: 16px; line-height: 24px; }
+    .bannerBottomRight ul li h3 { font-size: 16px; line-height: 21.3px; }
     .moshpitLeft h2 { font-size: 70px; line-height: 93px; }
     .moshpitLeft h2 span { font-size: 34px; line-height: 45px; }
     .moshpitRight p { font-size: 16px; line-height: 21.3px; }
@@ -121,21 +121,41 @@
 }
 
 @media (max-width: 767px) {
-    .contactMain { padding: 50px 0; }
-    .contactLeft img { height: 500px; }
-
-    .bannerBottomInner { padding: 20px 25px; top: -100px; }
-    .bannerBottomLeft h3 { font-size: 40px; line-height: 55px; }
-    .bannerAreaInner { padding: 100px 0 150px; }
 
     .headingOther { margin: 0 0 10px; }
     .headingOther h4 { font-size: 18px; margin: 0 0 10px; }
     .headingOther h2 { font-size: 32px; line-height: 44px; }
     .headingOther p { font-size: 15px; line-height: 20px; }
 
-    .marBottom { margin-top: 30px; }
-    .consulting { padding: 40px 0; }
-    .consult_img img { width: 100%; }
+
+    .contactMain { padding: 50px 0; }
+    .contactLeft img { height: 500px; }
+    .bannerAreaInner { padding: 100px 0 150px; }
+
+    .bannerBottom { padding: 50px 0; }
+    .bannerBottomInner { padding: 20px 25px; top: -100px; top: 0; flex-direction: column; }
+    .bannerBottomLeft { width: 100%; }
+    .bannerBottomLeft h2 { font-size: 35px; line-height: 46.6px; }
+    .bannerBottomRight { width: 100%; }
+    .bannerBottomRight p { padding: 0; margin: 0 0 20px; }
+    .bannerBottomRight ul { text-align: left; }
+
+    .targetMain { padding: 0; top: 0; }
+    .targetLeft { padding-right: 0; }
+    .targetLeft p { margin: 0 0 30px; }
+    .targetLeft h2 { font-size: 35px; line-height: 46.6px; margin: 0 0 10px; }
+    .targetLeftImage { margin: 0 0 30px; }
+    .targetLeftImage img { position: relative; width: 100%; }
+    .targetLeftImageData { bottom: 40px; left: -6px; }
+    .targetRight { padding-left: 0; }
+    .targetRightInner { margin: 0 0 20px; }
+    .targetRightInner h3 { margin: 0 0 5px; }
+    .targetRightBottom { padding: 20px 0 0; margin: 0; }
+    .targetRightImage { margin: 0 0 30px; }
+    .targetRightImage img { position: relative; width: 100%; }
+    .targetRightImageData { bottom: 40px; right: -8px; }
+
+
     .contactHomeMain { padding: 40px 0; }
 
     .brandsMain { padding: 0 0 40px; }
@@ -146,7 +166,6 @@
     .brandsInner p { padding: 0; }
 
     .firstPartyMain { padding: 0 0 40px; }
-    
 
     .platformMain { padding: 0 0 40px; }
     .platformInner { padding: 25px; }
@@ -158,26 +177,14 @@
     .moshpitLeft h2 { font-size: 45px; line-height: 60px; margin: 0; }
     .moshpitLeft h2 span { font-size: 30px; line-height: 40px; }
     .moshpitLeft { width: 100%; padding: 0 15px 15px; }
-    .moshpitRight { width: 100%; padding: 0px 25px 15px 15px; }
+    .moshpitRight { width: 100%; padding: 0 25px 15px 15px; }
     .moshpitRight p { margin: 0 0 20px; }
 
-    .targetMain { padding: 0; }
-    .targetLeft { padding-right: 0; }
-    .targetLeft p { margin: 0 0 30px; }
-    .targetLeft h3 { font-size: 35px; line-height: 46.6px; margin: 0 0 10px; }
-    .targetLeftImage { margin: 0 0 30px; }
-    .targetLeftImage img { position: relative; width: 100%; }
-    .targetLeftImageData { bottom: 40px; left: -6px; }
-    .targetRight { padding-left: 0; }
-    .targetRightInner { margin: 0 0 20px; }
-    .targetRightInner h5 { margin: 0 0 5px; }
-    .targetRightBottom { padding: 20px 0 0; margin: 0; }
-    .targetRightImage { margin: 0 0 30px; }
-    .targetRightImage img { position: relative; width: 100%; }
-    .targetRightImageData { bottom: 40px; right: -8px; }
-
+    .main_heading { margin: 0; }
     .main_heading h2 { font-size: 32px; line-height: 42.6px; text-align: left; }
     .main_heading p { padding: 0; text-align: center; }
+    .consulting { padding: 40px 0; }
+    .consult_img img { width: 100%; }
     .grid_2 { margin-top: 20px; }
     .new_grid_content:nth-child(2) { margin-top: 0; }
     .new_grid_content:nth-child(4) { margin-top: 0; }
@@ -188,13 +195,13 @@
     .newsletterLeft h3 { font-size: 24px; line-height: 32px; }
     .newsletterArea { padding: 40px 0 40px; }
     .footerTop { padding: 40px 0 0; }
-    .footerInner ul { margin: 0 0 0px; }
+    .footerInner ul { margin: 0; }
     .footerTop h3 { font-size: 20px; }
-    .footerInner > p { font-size: 14px; line-height: 18.6px; padding-right: 0; }
-    .footerInner ul li a { font-size: 14px; line-height: 18.6px; }
-    .addressFooter ul li p { font-size: 14px; line-height: 18.6px; }
+    .footerInner > p { font-size: 15px; line-height: 20px; padding-right: 0; }
+    .footerInner ul li a { font-size: 15px; line-height: 20px; }
+    .addressFooter ul li p { font-size: 15px; line-height: 20px; }
     .copyInner { padding: 15px 0; }
-    .copyInner p { font-size: 14px; line-height: 18.6px; }
+    .copyInner p { font-size: 15px; line-height: 20px; }
     /* START modalCustom */
     .modalCustom .modal-dialog { min-width: 460px; max-width: 90%; margin: 80px auto 0; position: unset; transform: unset !important; }
     .modalCustom .col-lg-6:first-child { display: none; }
@@ -217,55 +224,50 @@
     .bannerBtn { text-align: left; }
     .banner { background-position: left top; }
 
-    .firstPartyMain { padding: 0 0 30px; }
-    .firstPartyRight { display: block; }
-    .firstPartyRightInner { height: auto; padding: 20px; margin: 0 0 20px; }
-    .firstPartyRightInner h2 { margin: 0 0 10px; }
-    .firstPartyRightInner:nth-child(2) h2 { order: 1; }
-    .firstPartyRightInner:nth-child(2) p { order: 2; }
+    .bannerBottomLeft h2 { font-size: 25px; line-height: 33.3px; }
+    .bannerBottomRight ul { display: block; }
+    .bannerBottomRight ul li { display: inline-block; width: auto; padding-right: 20px; }
 
-    .bannerBottomInner { top: 0; flex-direction: column; }
-    .bannerBottomLeft { width: 100%; }
-    .bannerBottomRight p { padding-left: 0; margin-top: 0; }
-    .bannerBottomRight { width: 100%; }
-    .bannerBottomRight ul { text-align: left; }
-    .bannerBottomLeft h3 { font-size: 25px; line-height: 33.3px; }
-
-    .targetLeft { padding-top: 90px; padding-right: 0; }
-    .targetLeft h3 { font-size: 25px; line-height: 33.3px; }
-    .targetLeft h2 { margin: 0 0 10px; }
+    .targetLeft h2 { font-size: 25px; line-height: 33.3px; }
+    .targetLeft h4 { margin: 0 0 10px; }
     .targetLeftImageData { padding: 15px; }
     .targetLeftImageData h4 { font-size: 22px; line-height: 29.3px; }
-    .targetRightInner h5 { font-size: 22px; line-height: 29.3px; }
+    .targetRightInner h3 { font-size: 22px; line-height: 29.3px; }
     .targetRightInner p { font-size: 16px; line-height: 21.3px; }
     .targetRightImageData { padding: 15px; }
     .targetRightImageData h4 { font-size: 22px; line-height: 29.3px; }
     .targetRightImage { margin: 0 0 10px; }
 
     .brandsMain { padding: 0 0 30px; }
-    .brandsInner h2 { font-size: 25px; line-height: 33.3px; margin-bottom: 10px; }
+    .brandsInner h2 { font-size: 25px; line-height: 33.3px; margin: 0 0 10px; }
     .brandsInner p { font-size: 16px; line-height: 21.3px; }
     .brandsImages img { width: 170px; }
 
+    .firstPartyMain { padding: 0 0 30px; }
+    .firstPartyRight { display: block; }
+    .firstPartyRightInner { height: auto; padding: 20px; margin: 0 0 20px; }
+    .firstPartyRightInner h3 { margin: 0 0 10px; }
+    .firstPartyRightInner:nth-child(2) h3 { order: 1; }
+    .firstPartyRightInner:nth-child(2) p { order: 2; }
 
     .consulting { padding: 30px 0; }
     .contactHomeMain { padding: 30px 0; }
-    .contactPost h2 { font-size: 25px; line-height: 33.3px; margin-bottom: 10px; }
+    .contactPost h2 { font-size: 25px; line-height: 33.3px; margin: 0 0 10px; }
     .newsletterLeft h2 { font-size: 25px; line-height: 33.3px; }
     .newsletterLeft h3 { font-size: 22px; line-height: 29.3px; }
     .inner-text h3 { font-size: 22px; line-height: 29.3px; }
-    .main_heading h2 { font-size: 25px; line-height: 34px; margin-bottom: 10px; }
+    .main_heading h2 { font-size: 25px; line-height: 34px; margin: 0 0 10px; }
     .main_heading p { font-size: 16px; line-height: 21.3px; }
 
     .platformMain { padding: 0 0 30px; }
-    .platformInner h2 { font-size: 25px; line-height: 33.3; padding: 0; margin-bottom: 10px; }
+    .platformInner h2 { font-size: 25px; line-height: 33.3px; padding: 0; margin: 0 0 10px; }
     .platformInner p { font-size: 16px; line-height: 21.3px; }
 
     .moshpitOuter { padding: 30px 0; }
-    .moshpitLeft h2 { font-size: 35px; line-height: 47px; margin-bottom: 0; }
+    .moshpitLeft h2 { font-size: 35px; line-height: 47px; margin: 0; }
     .moshpitLeft h2 span { font-size: 22px; line-height: 30px; }
-    .moshpitRight { padding: 0px 20px 0 15px; }
-    .moshpitRight p { font-size: 16px; line-height: 21px; margin-bottom: 15px; }
+    .moshpitRight { padding: 0 20px 0 15px; }
+    .moshpitRight p { font-size: 16px; line-height: 21px; margin: 0 0 15px; }
     .footerInner { min-height: 130px; margin: 0 0 15px; border-bottom: 1px solid #ddd; padding: 0 0 10px; }
     .footerRES:last-child .footerInner { border: none; padding: 0; }
     /* START modalCustom */
@@ -295,9 +297,10 @@
     .contactRight { padding: 10px 20px 30px; }
     .contactRight h2 { font-size: 46px; line-height: 61.3px; margin: 0 0 10px; }
     .btnContact { margin: 0; }
-
-    .bannerBottomRight ul li { font-size: 16px; line-height: 21.3px; }
     .brandsImages img { width: 150px; }
+    .bannerBottomInner {padding: 15px;}
+    .bannerBottomRight ul li { padding-right: 10px; }
+
 
     .platformInner { padding: 20px; }
     .moshpitLeft h2 { font-size: 25px; line-height: 33.3px; }
@@ -315,12 +318,13 @@
 
 
 @media (max-width: 360px) {
-    .bannerAreaInner h1 { font-size: 32px; line-height: 42.6px; margin-bottom: 10px; }
+    .bannerAreaInner h1 { font-size: 32px; line-height: 42.6px; margin: 0 0 10px; }
     .moshpitLeft { padding: 0 12px 12px; }
     .b-bun--bottom, .b-bun--mid, .b-bun--top { width: 26px; }
     .b-menu { width: 26px; }
     .navbar-nav li .btn.nav-link { margin-right: 0; }
     .brandsImages img { width: 120px; }
+    .bannerBottomRight ul li { padding-right: 6px; }
     /* START modalCustom */
     .modalCustom .modal-dialog { min-width: 98%; max-width: 98%; }
     .subscribeArea { padding: 60px 15px; }

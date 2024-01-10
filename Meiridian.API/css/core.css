@@ -246,19 +246,18 @@ font-size: 16px; line-height: 21px; margin: 0 0 25px; border-radius: 0; color: #
 /* START FOOTER */
 .footer { background: #f9f9f9; width: 100%; position: relative; overflow: hidden; }
 .footerTop { padding: 70px 0 0; }
-.logoFooter { display: inline-block; margin: 0 0 25px; width: 100%; }
+.logoFooter { margin: 0 0 25px; display: inline-block; width: 100%; }
 .logoFooter img { width: 168px; }
-.footerTop h3 { color: #000; font-weight: bold; font-size: 22px; line-height: 30px; margin: 0 0 15px; }
-.footerInner { display: inline-block; margin: 0 0 30px; width: 100%; }
+.footerTop h3 { color: #000; font-weight: bold; font-size: 22px; line-height: 29.3px; margin: 0 0 15px; }
+.footerInner { margin: 0 0 30px; display: inline-block; width: 100%; }
 .footerInner>p { color: #fff; font-size: 16px; line-height: 21.3px; margin: 0 0 20px; width: 100%; padding-right: 35%; color: #000; }
 .footerInner ul { margin: 0 0 15px; padding: 0; }
-.footerInner ul li { display: inline-block; list-style-type: none; margin: 0 0 10px; width: 100%; font-size: 14px; line-height: 19px; }
+.footerInner ul li { list-style-type: none; margin: 0 0 10px; display: inline-block; width: 100%; }
 .footerInner ul li a { color: #000; font-size: 16px; line-height: 21.3px; display: inline-block; }
-.footerInner ul li a:hover,
-.footerInner li a:focus { color: #000; }
+.footerInner ul li a:hover, .footerInner li a:focus { color: #000; }
 .addressFooter { margin: 0; }
 .addressFooter ul { width: 100%; }
-.addressFooter ul li { display: inline-block; font-size: 16px; line-height: 21.3px; list-style-type: none; margin: 0 0 10px; }
+.addressFooter ul li { display: inline-block; list-style-type: none; margin: 0 0 10px; }
 .addressFooter ul li span { float: left; width: 30px; position: relative; color: #000; vertical-align: middle; }
 .addressFooter ul li img { color: #000; width: auto; }
 .addressFooter ul li p { font-size: 16px; line-height: 21.3px; margin: 0; color: #000; padding-left: 30px; }
@@ -277,7 +276,7 @@ font-size: 16px; line-height: 21px; margin: 0 0 25px; border-radius: 0; color: #
 /* START newsletter */
 .newsletterArea { position: relative; padding: 70px 0 50px; border-bottom: 1px solid #ddd; }
 .newsletterLeft {text-align: left; margin: 0 0 10px; }
-.newsletterLeft h2 { color: #fff; font-size: 20px; line-height: 26.6px; margin: 0; color: #000; font-weight: 600; margin: 0 0 10px; }
+.newsletterLeft h2 { color: #000; font-size: 20px; line-height: 26.6px; font-weight: 400; margin: 0 0 10px; }
 .newsletterLeft h3 { color: #000; font-size: 36px; line-height: 48px; margin: 0; font-weight: 600; }
 .newsletterInner { width: 100%; }
 .newsletterInner .form-group { margin: 0 0 10px; }

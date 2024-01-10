@@ -7,8 +7,6 @@
     .bannerAreaInner h1 { font-size: 55px; line-height: 73.3px; }
     .bannerAreaInner h2 { font-size: 30px; line-height: 40px; }
     .bannerAreaInner > p { font-size: 24px; line-height: 32px; }
-    .newsletterLeft h2 { font-size: 44px; line-height: 58px; }
-    .newsletterLeft h3 { font-size: 32px; line-height: 40px; }
     .targetMain { padding: 0 0 50px; }
     .moshpitMain { padding: 0 0 10px; }
     .brandsMain { padding: 0 0 50px; }
@@ -40,8 +38,7 @@
     .consulting { padding: 50px 0; }
     .main_heading h2 { font-size: 36px; line-height: 48px; }
     .newsletterArea { padding: 50px 0 50px; }
-    .newsletterLeft h2 { font-size: 38px; line-height: 50px; }
-    .newsletterLeft h3 { font-size: 28px; line-height: 38px; margin: 0 0 10px; }
+
     .footerTop { padding: 50px 0 0; }
     .contactMain { padding: 70px 0; }
     .contactLeft { width: 46%; }
@@ -93,7 +90,7 @@
     .bannerBottomInner { padding: 40px 20px; }
     .bannerBottomRight p { padding-left: 20px; }
     .bannerBottomRight ul li h3 { font-size: 16px; line-height: 21.3px; }
-    
+
     .moshpitLeft h2 { font-size: 70px; line-height: 93px; }
     .moshpitLeft h2 span { font-size: 34px; line-height: 45px; }
     .moshpitRight p { font-size: 16px; line-height: 21.3px; }
@@ -105,6 +102,7 @@
     .firstPartyMain .container-fluid { padding: 0 15px; }
     .firstPartyLeft { margin: 0 0 20px; }
 
+    .newsletterLeft h3 { margin: 0 0 15px; }
     .footerTop h3 { font-size: 18px; }
     .footerInner>p { padding: 0; }
     /* START modalCustom */
@@ -155,9 +153,6 @@
     .targetRightImage img { position: relative; width: 100%; }
     .targetRightImageData { bottom: 40px; right: -8px; }
 
-
-
-
     .brandsMain { padding: 0 0 40px; }
     .brandsInner { padding: 25px 25px 0; }
     .brandsInner h2 { font-size: 35px; line-height: 50px; }
@@ -194,9 +189,8 @@
     .contactPost h2 { font-size: 45px; line-height: 60px; }
     .contactPost p { margin-bottom: 30px; }
 
-    .newsletterLeft h2 { font-size: 32px; line-height: 42.6px; }
-    .newsletterLeft h3 { font-size: 24px; line-height: 32px; }
     .newsletterArea { padding: 40px 0 40px; }
+    .newsletterLeft h3 { font-size: 32px; line-height: 42.6px; }
     .footerTop { padding: 40px 0 0; }
     .footerInner ul { margin: 0; }
     .footerTop h3 { font-size: 20px; }
@@ -205,6 +199,7 @@
     .addressFooter ul li p { font-size: 15px; line-height: 20px; }
     .copyInner { padding: 15px 0; }
     .copyInner p { font-size: 15px; line-height: 20px; }
+    
     /* START modalCustom */
     .modalCustom .modal-dialog { min-width: 460px; max-width: 90%; margin: 80px auto 0; position: unset; transform: unset !important; }
     .modalCustom .col-lg-6:first-child { display: none; }
@@ -256,10 +251,10 @@
     .consulting { padding: 30px 0; }
     .contactHomeMain { padding: 30px 0; }
     .contactPost h2 { font-size: 25px; line-height: 33.3px; margin: 0 0 10px; }
-    .newsletterLeft h2 { font-size: 25px; line-height: 33.3px; }
-    .newsletterLeft h3 { font-size: 22px; line-height: 29.3px; }
+
+
     .inner-text h3 { font-size: 22px; line-height: 29.3px; }
-    .main_heading h2 { font-size: 25px; line-height: 34px; margin: 0 0 10px; }
+    .main_heading h2 { font-size: 25px; line-height:  33.3px; margin: 0 0 10px; }
     .main_heading p { font-size: 16px; line-height: 21.3px; }
 
     .platformMain { padding: 0 0 30px; }
@@ -272,6 +267,8 @@
     .moshpitRight { padding: 0 20px 0 15px; }
     .moshpitRight p { font-size: 16px; line-height: 21px; margin: 0 0 15px; }
 
+    .newsletterLeft h2 { font-size: 18px; line-height: 24px; }
+    .newsletterLeft h3 { font-size: 25px; line-height: 33.3px; }
     .footerInner { min-height: 130px; margin: 0 0 15px; border-bottom: 1px solid #ddd; padding: 0 0 10px; }
     .footerRES:last-child .footerInner { border: none; padding: 0; }
 

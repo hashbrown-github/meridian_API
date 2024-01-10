@@ -42,6 +42,7 @@
     .newsletterArea { padding: 50px 0 50px; }
     .newsletterLeft h2 { font-size: 38px; line-height: 50px; }
     .newsletterLeft h3 { font-size: 28px; line-height: 38px; margin: 0 0 10px; }
+    .footerTop { padding: 50px 0 0; }
     .contactMain { padding: 70px 0; }
     .contactLeft { width: 46%; }
     .contactRight { width: 54%; padding: 40px 50px 50px; }
@@ -50,9 +51,8 @@
 }
 
 @media (max-width: 991px) {
-
-    .mobile-nav .accordion-item h2 { font-size: 16px; line-height: 22px; color: #000000; margin-bottom: 0; display: flex; width: 100%; gap: 5px; font-weight: 400; }
-    .mobile-nav .accordion-item h2 button { background: unset; border: unset; padding: 0; display: flex; align-items: center; width: 100%; color: #000000; font-size: 20px; line-height: 28px; box-shadow: none; }
+    .mobile-nav .accordion-item h2 { font-size: 16px; line-height: 22px; color: #000; margin-bottom: 0; display: flex; width: 100%; gap: 5px; font-weight: 400; }
+    .mobile-nav .accordion-item h2 button { background: unset; border: unset; padding: 0; display: flex; align-items: center; width: 100%; color: #000; font-size: 20px; line-height: 28px; box-shadow: none; }
     .mobile-nav .accordion-item h2 button.accordion-button::after { display: none; }
     .mobile-nav .accordion-item h2 button span { vertical-align: middle; margin-left: 5px; }
     .mobile-nav .accordion-item h2 button:focus { outline: unset; outline:unset; }
@@ -62,10 +62,10 @@
     .mobile-nav { display: block; }
     .mobile-nav .sidebar_menuItems ul { padding-left: 15px; margin-top: 10px; animation: none; transition: none; position: unset; }
     .mobile-nav .sidebar_menuItems ul li { width: 100%; display: block; animation: none; transition: none; transform: none; }
-    .mobile-nav .sidebar_menuItems ul li a { font-size: 20px; line-height: 28px; color: #000000; -webkit-font-smoothing: antialiased; padding: 3px 0; display: block; }
+    .mobile-nav .sidebar_menuItems ul li a { font-size: 20px; line-height: 28px; color: #000; -webkit-font-smoothing: antialiased; padding: 3px 0; display: block; }
     .mobile-nav .accordion-item .active h2 { color: #373A47; }
     header { min-height: unset; }
-    header.fixed_header { background: #fff; width: 100%; position: fixed; left: 0; right: 0; z-index: 999; box-shadow: 0 2px 5px rgb(0 0 0 / 19%); transition: .3s all;top: 0; }
+    header.fixed_header { background: #fff; width: 100%; position: fixed; left: 0; right: 0; z-index: 999; box-shadow: 0 2px 5px rgb(0 0 0 / 19%); transition: .3s all; top: 0; }
     header.profile_header { padding: 0 0 69px 0; }
     header.profile_header .profile_header2 { padding: 12px 20px; width: 100%; position: fixed; left: 0; right: 0; z-index: 9; transition: .3s all; background: #fff; }
     .collapse.header_menu:not(.show) { display: block; }
@@ -93,12 +93,13 @@
     .bannerBottomInner { padding: 40px 20px; }
     .bannerBottomRight p { padding-left: 20px; }
     .bannerBottomRight ul li h3 { font-size: 16px; line-height: 21.3px; }
+    
     .moshpitLeft h2 { font-size: 70px; line-height: 93px; }
     .moshpitLeft h2 span { font-size: 34px; line-height: 45px; }
     .moshpitRight p { font-size: 16px; line-height: 21.3px; }
     .moshpitRight .btn { font-size: 16px; }
     .moshpitRight .btn i { font-size: 18px; padding-left: 5px; }
-    .new_grid_content { width: 47%; }
+    .new_grid_content { width: calc(50% - 8px); }
     .brandsImages img { width: 240px; }
 
     .firstPartyMain .container-fluid { padding: 0 15px; }
@@ -122,12 +123,10 @@
 }
 
 @media (max-width: 767px) {
-
     .headingOther { margin: 0 0 10px; }
     .headingOther h4 { font-size: 18px; margin: 0 0 10px; }
     .headingOther h2 { font-size: 32px; line-height: 44px; }
     .headingOther p { font-size: 15px; line-height: 20px; }
-
 
     .contactMain { padding: 50px 0; }
     .contactLeft img { height: 500px; }
@@ -157,7 +156,7 @@
     .targetRightImageData { bottom: 40px; right: -8px; }
 
 
-    .contactHomeMain { padding: 40px 0; }
+
 
     .brandsMain { padding: 0 0 40px; }
     .brandsInner { padding: 25px 25px 0; }
@@ -175,20 +174,23 @@
 
     .moshpitMain { padding: 0; }
     .moshpitOuter { padding: 40px 0; flex-direction: column; }
-    .moshpitLeft h2 { font-size: 45px; line-height: 60px; margin: 0; }
+
+    .moshpitLeft { width: 100%; padding: 0 15px 15px; border: none; }
+    .moshpitLeft h2 { font-size: 55px; line-height: 73.3px; margin: 0; }
     .moshpitLeft h2 span { font-size: 30px; line-height: 40px; }
-    .moshpitLeft { width: 100%; padding: 0 15px 15px; }
     .moshpitRight { width: 100%; padding: 0 25px 15px 15px; }
     .moshpitRight p { margin: 0 0 20px; }
 
     .main_heading { margin: 0; }
     .main_heading h2 { font-size: 32px; line-height: 42.6px; text-align: left; }
-    .main_heading p { padding: 0; text-align: center; }
+    .main_heading p { padding: 0; }
     .consulting { padding: 40px 0; }
     .consult_img img { width: 100%; }
     .grid_2 { margin-top: 20px; }
     .new_grid_content:nth-child(2) { margin-top: 0; }
     .new_grid_content:nth-child(4) { margin-top: 0; }
+
+    .contactHomeMain { padding: 40px 0; }
     .contactPost h2 { font-size: 45px; line-height: 60px; }
     .contactPost p { margin-bottom: 30px; }
 
@@ -220,7 +222,7 @@
     .profile_header .desk_logo2 { display: none; }
 
     .bannerAreaInner { padding: 60px 0 50px; }
-    .bannerAreaInner h1 { font-size: 40px; line-height: 53px; margin-bottom: 15px; }
+    .bannerAreaInner h1 { font-size: 40px; line-height: 53px; margin: 0 0 15px; }
     .bannerAreaInner h2 { font-size: 25px; line-height: 33.3px; }
     .bannerBtn { text-align: left; }
     .banner { background-position: left top; }
@@ -265,12 +267,14 @@
     .platformInner p { font-size: 16px; line-height: 21.3px; }
 
     .moshpitOuter { padding: 30px 0; }
-    .moshpitLeft h2 { font-size: 35px; line-height: 47px; margin: 0; }
-    .moshpitLeft h2 span { font-size: 22px; line-height: 30px; }
+    .moshpitLeft h2 { font-size: 45px; line-height: 60px;  }
+    .moshpitLeft h2 span { font-size: 22px; line-height: 39.6px; }
     .moshpitRight { padding: 0 20px 0 15px; }
     .moshpitRight p { font-size: 16px; line-height: 21px; margin: 0 0 15px; }
+
     .footerInner { min-height: 130px; margin: 0 0 15px; border-bottom: 1px solid #ddd; padding: 0 0 10px; }
     .footerRES:last-child .footerInner { border: none; padding: 0; }
+
     /* START modalCustom */
     .modalCustom .modal-dialog { min-width: 360px; max-width: 90%; }
     .formModel .input-group { display: flex; }
@@ -301,10 +305,7 @@
     .brandsImages img { width: 150px; }
     .bannerBottomInner {padding: 15px;}
     .bannerBottomRight ul li { padding-right: 10px; }
-
-
     .platformInner { padding: 20px; }
-    .moshpitLeft h2 { font-size: 25px; line-height: 33.3px; }
     .moshpitLeft h2 span { font-size: 25px; line-height: 33.3px; }
     .targetRightImageData h4 { font-size: 18px; line-height: 24px; }
     .targetLeftImageData h4 { font-size: 18px; line-height: 24px; }

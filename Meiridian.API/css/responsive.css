@@ -46,6 +46,7 @@
     .contactLeft { width: 46%; }
     .contactRight { width: 54%; padding: 40px 50px 50px; }
     .modalCustom .modal-dialog { min-width: auto; max-width: 960px; }
+    .subscribeArea { padding: 100px 30px 90px; }
 }
 
 @media (max-width: 991px) {
@@ -107,7 +108,7 @@
     .footerInner>p { padding: 0; }
     /* START modalCustom */
     .modalCustom .modal-dialog { min-width: auto; max-width: 760px; }
-    .subscribeArea { padding: 55px 20px; }
+    .subscribeArea { padding: 80px 20px; }
     .subscribeArea h2 { margin: 0 0 10px; }
     .subscribeArea h3 { margin: 0 0 10px; }
     .subscribeArea p { margin: 0 0 15px; }

@@ -107,10 +107,10 @@
     .footerInner>p { padding: 0; }
     /* START modalCustom */
     .modalCustom .modal-dialog { min-width: auto; max-width: 760px; }
-    .subscribeArea { padding: 80px 20px; }
-    .subscribeArea h2 { margin: 0 0 10px; }
+    .subscribeArea { padding: 70px 20px; }
+    .subscribeArea h2 { margin: 0 0 25px; }
     .subscribeArea h3 { margin: 0 0 10px; }
-    .subscribeArea p { margin: 0 0 15px; }
+    .subscribeArea p { margin: 0 0 20px; }
     /* END modalCustom */
 
     /* START contactMain */
@@ -118,6 +118,8 @@
     .contactLeft img { width: 100%; height: 600px; object-fit: cover; }
     .contactRight { width: 100%; padding: 40px 50px 50px; }
     /* END contactMain */
+
+    .cont-text { padding-right: 0; }
 }
 
 @media (max-width: 767px) {
@@ -199,15 +201,25 @@
     .addressFooter ul li p { font-size: 15px; line-height: 20px; }
     .copyInner { padding: 15px 0; }
     .copyInner p { font-size: 15px; line-height: 20px; }
-    
+
     /* START modalCustom */
     .modalCustom .modal-dialog { min-width: 460px; max-width: 90%; margin: 80px auto 0; position: unset; transform: unset !important; }
     .modalCustom .col-lg-6:first-child { display: none; }
     .subscribeArea { padding: 80px 45px 80px; }
-    .subscribeArea h2 { margin: 0 0 20px; }
-    .subscribeArea h3 { margin: 0 0 20px; }
+    .subscribeArea h2 { margin: 0 0 30px; }
+    .subscribeArea h3 { margin: 0 0 10px; }
     .subscribeArea p { margin: 0 0 30px; }
     /* END modalCustom */
+
+    /* START contact-us-section */
+    .contact-us-section { padding: 10px 0 60px !important; }
+    .title-text h2 { font-size: 35px; line-height: 46.6px; }
+    .contact-us-section .mb-5 { margin-bottom: 25px !important; }
+    .cont-text { padding: 0 4%; }
+    .cont-form { padding-left: 15px; }
+    .cont-form form { padding: 0 4%; }
+    .title-text h2 { margin: 0; }
+    /* END contact-us-section */
 }
 
 @media (max-width: 575px) {
@@ -222,12 +234,12 @@
     .bannerBtn { text-align: left; }
     .banner { background-position: left top; }
 
-    .bannerBottomLeft h2 { font-size: 25px; line-height: 33.3px; }
+    .bannerBottomLeft h2 { font-size: 28px; line-height: 37.3px; }
     .bannerBottomRight ul { display: block; }
     .bannerBottomRight ul li { display: inline-block; width: auto; padding-right: 20px; }
 
-    .targetLeft h2 { font-size: 25px; line-height: 33.3px; }
-    .targetLeft h4 { margin: 0 0 10px; }
+    .targetLeft h2 { font-size: 28px; line-height: 37.3px; }
+    .targetLeft h4 { margin: 0 0 10px; font-size: 20px; line-height: 26.3px; }
     .targetLeftImageData { padding: 15px; }
     .targetLeftImageData h4 { font-size: 22px; line-height: 29.3px; }
     .targetRightInner h3 { font-size: 22px; line-height: 29.3px; }
@@ -237,7 +249,7 @@
     .targetRightImage { margin: 0 0 10px; }
 
     .brandsMain { padding: 0 0 30px; }
-    .brandsInner h2 { font-size: 25px; line-height: 33.3px; margin: 0 0 10px; }
+    .brandsInner h2 { font-size: 28px; line-height: 37.3px; margin: 0 0 10px; }
     .brandsInner p { font-size: 16px; line-height: 21.3px; }
     .brandsImages img { width: 170px; }
 
@@ -250,31 +262,33 @@
 
     .consulting { padding: 30px 0; }
     .contactHomeMain { padding: 30px 0; }
-    .contactPost h2 { font-size: 25px; line-height: 33.3px; margin: 0 0 10px; }
-
+    .contactPost h2 { font-size: 28px; line-height: 37.3px; margin: 0 0 10px; }
 
     .inner-text h3 { font-size: 22px; line-height: 29.3px; }
-    .main_heading h2 { font-size: 25px; line-height:  33.3px; margin: 0 0 10px; }
+    .main_heading h2 { font-size: 25px; line-height: 33.3px; margin: 0 0 10px; }
     .main_heading p { font-size: 16px; line-height: 21.3px; }
 
     .platformMain { padding: 0 0 30px; }
-    .platformInner h2 { font-size: 25px; line-height: 33.3px; padding: 0; margin: 0 0 10px; }
+    .platformInner h2 { font-size: 28px; line-height: 37.3px; padding: 0; margin: 0 0 10px; }
     .platformInner p { font-size: 16px; line-height: 21.3px; }
 
     .moshpitOuter { padding: 30px 0; }
-    .moshpitLeft h2 { font-size: 45px; line-height: 60px;  }
-    .moshpitLeft h2 span { font-size: 22px; line-height: 39.6px; }
+    .moshpitLeft h2 { font-size: 45px; line-height: 60px; }
+    .moshpitLeft h2 span { font-size: 22px; line-height: 29.6px; }
     .moshpitRight { padding: 0 20px 0 15px; }
     .moshpitRight p { font-size: 16px; line-height: 21px; margin: 0 0 15px; }
 
-    .newsletterLeft h2 { font-size: 18px; line-height: 24px; }
-    .newsletterLeft h3 { font-size: 25px; line-height: 33.3px; }
+    /* START footer */
+    .newsletterLeft h2 { font-size: 18px; line-height: 24px; margin: 0 0 5px; }
+    .newsletterLeft h3 { font-size: 28px; line-height: 37.3px; }
+    .newsletterInner .form-control { margin: 0 0 20px; width: 100%; }
+    .newsletterInner .input-group-text { display: inline-block; width: 100%; text-align: left; }
     .footerInner { min-height: 130px; margin: 0 0 15px; border-bottom: 1px solid #ddd; padding: 0 0 10px; }
     .footerRES:last-child .footerInner { border: none; padding: 0; }
+    /* END footer */
 
     /* START modalCustom */
     .modalCustom .modal-dialog { min-width: 360px; max-width: 90%; }
-    .formModel .input-group { display: flex; }
     .formModel .form-control { margin: 0 0 30px; width: 100%; }
     .formModel .input-group-text { text-align: center; display: inline-block; width: 100%; }
     .subscribeArea { padding: 70px 30px; }
@@ -300,10 +314,10 @@
     .contactRight h2 { font-size: 46px; line-height: 61.3px; margin: 0 0 10px; }
     .btnContact { margin: 0; }
     .brandsImages img { width: 150px; }
-    .bannerBottomInner {padding: 15px;}
+    .bannerBottomInner { padding: 15px; }
     .bannerBottomRight ul li { padding-right: 10px; }
     .platformInner { padding: 20px; }
-    .moshpitLeft h2 span { font-size: 25px; line-height: 33.3px; }
+    .moshpitLeft h2 span { font-size: 28px; line-height: 37.3px; }
     .targetRightImageData h4 { font-size: 18px; line-height: 24px; }
     .targetLeftImageData h4 { font-size: 18px; line-height: 24px; }
     .grid_2 { flex-direction: column; }
@@ -327,9 +341,9 @@
     /* START modalCustom */
     .modalCustom .modal-dialog { min-width: 98%; max-width: 98%; }
     .subscribeArea { padding: 60px 15px; }
-    .subscribeArea h2 { margin: 0 0 10px; font-size: 24px; line-height: 32px; }
-    .subscribeArea h3 { margin: 0 0 10px; font-size: 30px; line-height: 40px; }
-    .subscribeArea p { margin: 0 0 15px; }
+    .subscribeArea h2 { font-size: 24px; line-height: 32px; }
+    .subscribeArea h3 { font-size: 32px; line-height: 44px; margin: 0 0 15px; }
+    .subscribeArea p { margin: 0 0 20px; }
     .formModel .form-control { margin: 0 0 20px; }
     /* END modalCustom */
 }

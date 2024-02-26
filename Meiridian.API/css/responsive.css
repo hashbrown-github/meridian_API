@@ -1,7 +1,26 @@
 @media (max-width: 1399px) {
     .contactLeft { width: 39%; }
     .contactRight { width: 60%; }
+    /* START geo-mapping */
+    .geoBannerInner { width: 450px; max-width: 100%; }
+    .eliminateLeft { padding: 35px 35px 20px; }
+    .eliminateLeft p { width: 100%; }
+    .eliminateOuterBottom .eliminateLeft { padding: 35px 35px 15px; }
+    /* END geo-mapping */
+
+    /* START user-persona */
+    .personaBannerInner { width: 450px; max-width: 100%; }
+    .identityInner p { width: 75%; }
+    .connectRight { padding: 90px 0; }
+    .connectRight p { width: 85%; }
+    .hyperLeft { width: 55%; top: -40px; }
+    .hyperRight { width: 45%; padding: 60px 0; left: 0; }
+    .hyperRight p { width: 90%; }
+    .accessMain { padding: 30px 0 60px; }
+    .accessLeft p { width: 80%; }
+    /* END user-persona */
 }
+
 @media (max-width: 1366px) {
     .bannerAreaInner { padding: 100px 0 230px; }
     .bannerAreaInner h1 { font-size: 55px; line-height: 73.3px; }
@@ -13,6 +32,7 @@
     .firstPartyRightInner { width: 100%; height: 430px; margin-top: 0; }
     .firstPartyRightInner .img-fluid { width: 100%; height: 400px; object-fit: contain; }
 }
+
 @media (max-width: 1199px) {
     .headingOther h2 { font-size: 48px; line-height: 58px; }
 
@@ -29,12 +49,12 @@
     .platformInner h2 { font-size: 36px; line-height: 48px; }
     .brandsInner h2 { font-size: 36px; line-height: 48px; }
     .brandsImages img { width: 340px; }
-    
+
     .contactHomeMain { padding: 50px 0; }
     .contactPost h2 { font-size: 45px; line-height: 60px; }
     .moshpitOuter { padding: 50px 0; }
     .moshpitLeft h2 { font-size: 80px; line-height: 95px; }
-    .moshpitLeft h2 span { font-size: 44px; line-height: 55px; }
+    .moshpitLeft h2 span { font-size: 44px; line-height: 58.6px; }
     .consulting { padding: 50px 0; }
     .main_heading h2 { font-size: 36px; line-height: 48px; }
     .newsletterArea { padding: 50px 0 50px; }
@@ -45,6 +65,32 @@
     .contactRight { width: 54%; padding: 40px 50px 50px; }
     .modalCustom .modal-dialog { min-width: auto; max-width: 960px; }
     .subscribeArea { padding: 100px 30px 90px; }
+
+
+    /* START geo-mapping */
+    .geoBanner { height: auto; padding: 70px 0; background-size: cover; }
+    .eliminateLeft { padding: 10px 15px 5px; }
+    .eliminateLeft h2 { margin: 0 0 10px; width: 80%; }
+    .eliminateLeft p { margin: 0 0 10px; }
+    .eliminateOuterBottom .eliminateLeft { padding: 15px 15px 10px; }
+    .microInner p { width: 100%; }
+    /* END geo-mapping */
+
+
+    /* START user-persona */
+    .personaBanner { height: auto; padding: 70px 0; background-size: cover; }
+    .identityInner p { width: 90%; }
+    .connectMain { margin: 70px 0 0; padding: 70px 0;}
+    .connectLeft { position: relative; top: 0; }
+    .connectRight { padding: 0; }
+    .segmantMain { padding: 70px 0 40px; }
+    .segmantLeft h2 { width: 100%; }
+    .segmantLeft p { width: 90%; }
+    .hyperMain { padding: 60px 0; }
+    .hyperLeft { position: relative; top: 0; }
+    .hyperRight { padding: 0; }
+    /* END user-persona */
+
 }
 
 @media (max-width: 991px) {
@@ -105,6 +151,7 @@
     .newsletterLeft h3 { margin: 0 0 15px; }
     .footerTop h3 { font-size: 18px; }
     .footerInner>p { padding: 0; }
+
     /* START modalCustom */
     .modalCustom .modal-dialog { min-width: auto; max-width: 760px; }
     .subscribeArea { padding: 70px 20px; }
@@ -113,13 +160,52 @@
     .subscribeArea p { margin: 0 0 20px; }
     /* END modalCustom */
 
+    /* START newsletterModalArea */
+    #newsletterModal .modal-dialog { min-width: auto; max-width: 600px; }
+    .newsletterModalArea h2 { font-size: 40px; line-height: 53px; }
+    .newsletterModalArea p { width: 100%; }
+    .newsletterForm { width: 100%; }
+    /* END newsletterModalArea */
+
+
     /* START contactMain */
     .contactLeft { width: 100%; display: none; }
     .contactLeft img { width: 100%; height: 600px; object-fit: cover; }
     .contactRight { width: 100%; padding: 40px 50px 50px; }
     /* END contactMain */
 
+    /* START contact-us-section */
     .cont-text { padding-right: 0; }
+    /* END contact-us-section */
+
+    /* START geo-mapping */
+    .pinPointMain { padding: 80px 0 10px; }
+    .pinPointLeft h2 { width: 100%; }
+    .pinPointRight { width: 100%; }
+    .pinPointRight p { margin: 0 0 15px; }
+    .eliminateOuter { align-items: start; margin: 0 0 30px; }
+    .eliminateLeft, .eliminateOuterBottom .eliminateLeft { width: 60%; order: 2; padding: 0 15px; background-color: transparent; }
+    .eliminateLeft h2 { width: 100%; }
+    .eliminateRight { width: 40%; order: 1;}
+    .heatMapInner h2 { font-size: 40px; line-height: 53px; }
+    .heatMapInner p { width: 100%; }
+    .microInner p{ font-size: 20px; line-height: 27px; }
+    /* END geo-mapping */
+
+
+    /* START user-persona */
+    .identityInner p { width: 100%; }
+    .connectRight p { width: 100%; }
+    .segmantLeft p { width: 100%; }
+    .hyperRight p { width: 100%; }
+    .accessLeft h2 { width: 100%; }
+    .accessLeft p { width: 100%; }
+    .connectOuter { gap: 0 20px; }
+    .segmantOuter { gap: 0 20px; }
+    .hyperOuter { gap: 0 20px; }
+    .accessOuter { gap: 0 20px; }
+    /* END user-persona */
+
 }
 
 @media (max-width: 767px) {
@@ -203,13 +289,18 @@
     .copyInner p { font-size: 15px; line-height: 20px; }
 
     /* START modalCustom */
-    .modalCustom .modal-dialog { min-width: 460px; max-width: 90%; margin: 80px auto 0; position: unset; transform: unset !important; }
+    .modalCustom .modal-dialog { min-width: 460px; max-width: 90%; margin: 70px auto; position: unset; transform: unset !important; }
     .modalCustom .col-lg-6:first-child { display: none; }
     .subscribeArea { padding: 80px 45px 80px; }
     .subscribeArea h2 { margin: 0 0 30px; }
     .subscribeArea h3 { margin: 0 0 10px; }
     .subscribeArea p { margin: 0 0 30px; }
     /* END modalCustom */
+
+    /* START newsletterModalArea */
+    #newsletterModal .modal-dialog { min-width: 460px; max-width: 90%; margin: 70px auto; position: unset; transform: unset !important; }
+    .newsletterModalArea h2 { font-size: 36px; line-height: 48px; }
+    /* END newsletterModalArea */
 
     /* START contact-us-section */
     .contact-us-section { padding: 10px 0 60px !important; }
@@ -220,6 +311,28 @@
     .cont-form form { padding: 0 4%; }
     .title-text h2 { margin: 0; }
     /* END contact-us-section */
+
+    /* START geo-mapping */
+    .targetCustomersInner p { font-size: 26px; line-height: 34px; }
+    .complexInner p { font-size: 20px; line-height: 27px; }
+    .complexInner p strong { font-size: 32px; line-height: 36px; }
+    .heatMapInner h2 { font-size: 36px; line-height: 48px; }
+    /* END geo-mapping */
+
+    /* START user-persona */
+    .connectOuter { display: inline-block; }
+    .connectLeft { margin: 0 0 10px; width: 100%; }
+    .connectRight { width: 100%; }
+    .segmantOuter { flex-direction: column; }
+    .segmantLeft { margin: 0; width: 100%; order: 2; }
+    .segmantRight { width: 100%; order: 1; }
+    .hyperOuter { display: inline-block; }
+    .hyperLeft { margin: 0 0 10px; width: 100%; }
+    .hyperRight { width: 100%; }
+    .accessOuter { flex-direction: column; }
+    .accessLeft { margin: 0; width: 100%; order: 2; }
+    .accessRight { width: 100%; order: 1; }
+    /* END user-persona */
 }
 
 @media (max-width: 575px) {
@@ -293,6 +406,35 @@
     .formModel .input-group-text { text-align: center; display: inline-block; width: 100%; }
     .subscribeArea { padding: 70px 30px; }
     /* END modalCustom */
+
+    /* START newsletterModalArea */
+    #newsletterModal .modal-dialog { min-width: 360px; max-width: 90%; }
+    .newsletterModalArea { padding: 30px 30px 20px; }
+    .newsletterForm .form-control { margin: 0 0 30px; width: 100%; border: 1px solid #000; }
+    .newsletterForm .input-group-text { padding: 0; text-align: left; display: inline-block; width: 100%; }
+    .newsletterForm .input-group { border: none;  }
+    .newsletterForm .btn { border: 1px solid #000; padding: 12px 20px 12px 25px; }
+    /* END newsletterModalArea */
+
+    /* START geo-mapping */
+    .geoBannerInner { width: 100%; }
+    .geoBannerInner h1 { font-size: 48px; line-height: 64px; }
+    .pinPointMain { padding: 70px 0 10px; }
+    .eliminateMain { padding: 50px 0 30px;}
+    .eliminateOuter { flex-direction: column; }
+    .eliminateLeft, .eliminateOuterBottom .eliminateLeft { order: 2; padding: 0; width: 100%; }
+    .eliminateRight { order: 1; width: 100%;}
+    .heatMapMain { padding: 70px 0 40px;}
+    .heatMapInner h2 { font-size: 30px; line-height: 40px; }
+    /* END geo-mapping */
+
+    /* START user-persona */
+    .personaBannerInner { width: 100%; }
+    .personaBannerInner h1 { font-size: 48px; line-height: 64px; }
+    .targetCustomersInner p { font-size: 22px; line-height: 29.6px; }
+    /* END user-persona */
+
+
 }
 
 @media (max-width: 480px) {
@@ -323,10 +465,15 @@
     .grid_2 { flex-direction: column; }
     .boxDescription_p { padding: 15px; }
     .new_grid_content { width: 100%; position: relative; }
+
     /* START modalCustom */
     .modalCustom .modal-dialog { min-width: 320px; max-width: 90%; }
     .subscribeArea { padding: 60px 20px; }
     /* END modalCustom */
+
+    /* START newsletterModalArea */
+    #newsletterModal .modal-dialog { min-width: 320px; max-width: 90%; }
+    /* END newsletterModalArea */
 }
 
 
@@ -338,6 +485,7 @@
     .navbar-nav li .btn.nav-link { margin-right: 0; }
     .brandsImages img { width: 120px; }
     .bannerBottomRight ul li { padding-right: 6px; }
+
     /* START modalCustom */
     .modalCustom .modal-dialog { min-width: 98%; max-width: 98%; }
     .subscribeArea { padding: 60px 15px; }
@@ -346,4 +494,9 @@
     .subscribeArea p { margin: 0 0 20px; }
     .formModel .form-control { margin: 0 0 20px; }
     /* END modalCustom */
+
+    /* START newsletterModalArea */
+    #newsletterModal .modal-dialog { min-width: 98%; max-width: 98%; }
+    .newsletterModalArea { padding: 30px 15px 20px; }
+    /* END newsletterModalArea */
 }
